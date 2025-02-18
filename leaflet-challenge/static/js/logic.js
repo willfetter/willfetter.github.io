@@ -27,15 +27,6 @@ var topoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
   attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 });
 
-/*
-// Watercolor Layer
-var waterColor = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.{ext}', {
-  minZoom: 1,
-  maxZoom: 16,
-  attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-  ext: 'jpg'
-});
-*/
 
 // Make a basemap object
 let basemaps = {
@@ -43,7 +34,6 @@ let basemaps = {
   Grayscale: grayscale,
   Aerial: aerial,
   TopMap: topoMap
-  // "Water Color": waterColor
 };
 
 // Create the map object with center and zoom options. 
@@ -51,7 +41,7 @@ let basemaps = {
 var myMap = L.map("map", {
   center: [36.7783, -119.4179],
   zoom: 5,
-  layers: [grayscale, aerial, topoMap, /*waterColor,*/ defaultMap]
+  layers: [grayscale, aerial, topoMap, defaultMap]
 });
 
 // Add default tile layer to the map.
