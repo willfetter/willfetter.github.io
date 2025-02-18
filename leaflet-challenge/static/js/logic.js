@@ -22,7 +22,7 @@ var topoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
 let basemaps = {
   Default: defaultMap,
   Aerial: aerial,
-  TopMap: topoMap
+  TopoMap: topoMap
 };
 
 // Create the map object with center and zoom options. 
