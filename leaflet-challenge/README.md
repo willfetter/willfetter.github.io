@@ -1,5 +1,13 @@
 # Module_15_leaflet-challenge
  Module 15 - Mapping - By William Fetter
+ 
+# Description
+This assignment creates a leaflet visualization diplaying all USGS earthquake data for the past 7 days. It shows earthquake locations with circles, the magnitude or the earthquakes as represented by the size of the circles, and the depth of the earthquakes as represented by the color of the circles. 
+
+# Instructions for Use
+Launch the visualization by opening "index.html" file with Live Server
+
+Map layers can be via the drop down menu on the top right. Select the map background desired along with the layers desired to be turned on or off. 
 
 # Background Information
 The United States Geological Survey, or USGS for short, is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes.
@@ -10,9 +18,8 @@ The USGS is interested in building a new set of tools that will allow them to vi
 The initial input files for the assignment are located within the "Module_15_leaflet-challenge/Starter_Code" folder
 
 # OutPut Files
-The resulting output files for the assignment are located within the main "belly_button-challenge" directory and are listed as:
-- "------------"
-- ----------
+The resulting output files for the assignment are located within the main "Module_15_leaflet-challenge" directory and are located in the file:
+- static/js/logic.js
   
 ## Instructions
 #### Part 1 - Create the Earthquate Visualization
