@@ -15,8 +15,8 @@ The initial input files for the assignment are located within the "belly_button-
 # OutPut Files
 The resulting output files for the assignment are located within the main "belly_button-challenge" directory and are listed as:
 - "static/js/app.js"
-- App Deployed to Github Pages at https://willfetter.github.io/
-
+- App Deployed to Github Pages at https://willfetter.github.io/belly-button-challenge/
+  
 ## Instructions
 Complete the following steps:
 1. Use the D3 library to read in samples.json from the URL https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json.
@@ -40,4 +40,5 @@ Complete the following steps:
  - Class information and videos - for basics of coding and building foundation
  - Stack overflow - for trouble shooting, and researching best code practices
  - https://plotly.com/javascript/ for help when building plots
- - 
+ - https://plotly.com/javascript/bubble-charts/ for help with building bubble charts
+ - Hulcr, J. et al. (2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable. Retrieved from: http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/Links to an external site.
